@@ -1,0 +1,23 @@
+{
+  "name": "cache_redis_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js",
+    "dev_second": "nodemon src/app_2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "redis": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "response-time": "^2.3.2"
+  }
+}
